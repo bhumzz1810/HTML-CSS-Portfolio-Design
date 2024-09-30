@@ -186,4 +186,7 @@ iframe {
   .enjoy-photo {
     display: block;
   }
+  .grid-container {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 0.95fr));
+  }
 }
