@@ -142,6 +142,11 @@ iframe {
   height: 150px;
   box-shadow: 5px 5px 5px 2px rgb(0 0 0 / 21%);
 }
+@media screen and (max-width: 1000px) and (min-width: 768px) {
+  .grid-container {
+    grid-template-columns: repeat(auto-fit, minmax(450px, 0.95fr));
+  }
+}
 
 /* Responsive Design */
 @media (max-width: 768px) {
