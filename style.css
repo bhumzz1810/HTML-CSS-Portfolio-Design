@@ -181,8 +181,9 @@ iframe {
     float: none;
     margin: 0 auto;
   }
-
-  .grid-container {
-    grid-template-columns: 1fr;
+}
+@media (max-width: 480px) {
+  .enjoy-photo {
+    display: block;
   }
 }
