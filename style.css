@@ -151,12 +151,15 @@ iframe {
     height: 12vh;
     width: 100%;
   }
+  header h1 {
+    font-size: 25px;
+  }
   .container {
     flex-direction: column;
   }
 
   nav {
-    top: 11%;
+    top: 9%;
     background-color: #333;
     height: 15vh;
     width: 100%;
